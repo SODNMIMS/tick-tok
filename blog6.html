@@ -102,30 +102,20 @@
 							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 								<span>The invisible work that makes the system work.</span>
 								<h2>What did we do?</h2>
-								<p>The NeoPixel LED Strips were used instead of NeoPixel LED Rings in order to fit it with the form. </p>
+								<p>After finalizing our concept and confirming its feasibility, our task was prototyping our first iteration – sounding the buzzer when the door opened. <br>This corresponded to our MVP for that day. We worked with piezo buzzers and magnetic reed sensor to make the prototype work. After this, we worked to identify the process to send and record data collected to thingspeak which would help observe patterns of late comers in the form of infographics. <br>We used the node MCU (esp8266) to push data to the fields created on thingspeak.</p>
+								<p>After achieving this, we went on to understand how machine learning works and how we can custom train our model to identify people. We used ml5 and mobilenet documentation which are based on tensor flow to create a model to exclusively identify students from School of Design. <br>Initially we worked with the OV7670 camera module to capture images and identify the students but, due to compatibility and debugging issues we chose to use a web cam to execute the code. <br>We used the feature extractor function to train the the system by uploading multiple pictures of each subject to ensure a certain level of probable identification. We are working out the code on how to export the trained model so that it can run on other systems and models smoothly. <br>Moreover, we are trying to identify the process to push the pictorial data from the machine learning process onto the thingspeak channel we created.</p>
 							</div>
 						</div>
 						<div class="row row-pb-md animate-box">
 							<div class="col-md-6 col-md-push-6">
 
-								<div class="desc">
-									<h3>Execution</h3>
-									<p>We used a Neo-pixel LED strip in order to build the hands of the clock.</p>
-									<p>The inner circle of the clock was the hour hand where one LED represented one hour. </p>
-									<p>The outer circle constituted the minute and second hand. Each 2.5 minute was equal to shifting of one LED></p>
-
-								</div>
-								<div class="desc">
-									<h3>Next Steps</h3>
-									<p>To upload the data collected on ThingSpeak.</p>
-									<p>To export mobilenet file into .json in order to train the machine only once.</p>
 
 
 								</div>
 							</div>
-							<div class="col-md-6 col-md-pull-6">
-								<img class="img-responsive" src="images/blog5/1.jpg " alt="about">
-							</div>
+
+									<video width="100%" height="auto" controls><source src="images/machine learning_training and execution_final.mp4"></video>
+
 
 				</div>
 			</div>
