@@ -1,5 +1,5 @@
 
-TITLE: 
+TITLE:
 Shape - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
@@ -48,4 +48,3 @@ http://dimsemenov.com/plugins/magnific-popup/
 Demo Images:
 http://pixeden.com
 http://unsplash.com
-
